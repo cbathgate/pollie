@@ -1,5 +1,5 @@
 const app = require('./server-config.js');
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const server = app.listen(port);
 
